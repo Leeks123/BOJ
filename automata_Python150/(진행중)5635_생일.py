@@ -1,9 +1,9 @@
 #5635
 
-n = int(raw_input())
+n = int(input())
 dic = {}
 for i in range(n):
-    li = raw_input().split(' ')
+    li = input().split(' ')
     dic[li[0]]=li[1:]
 
 print(dic.items())
